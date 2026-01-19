@@ -1,3 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #1A0B2E;
+}
+
 nav{
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 16px 100px ;
+    gap: auto;
+    background-color: #1A0B2E;
+    color: #FFFFFF;
     display: flex;
+    justify-content: space-between;
+}
+ .menu{
+  list-style-type: none;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+     align-items: center;
+     border-radius: 20px;
+    
+    
+ }
+ a{color: #FFFFFF;
+    text-decoration: none;
+    font-size: 16px;
+   
+ }
+ .btn-arrow {
+    width: 115px;
+    height: 35px;
+   background-image: linear-gradient(to right, #F7E93F, #FB09B4,#9100F8);
+  color: white;
+  padding: 16px 12px;
+  border: none;
+  border-radius: 50px;
+  font-size: 14px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  
 }
