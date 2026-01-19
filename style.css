@@ -1,26 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+     font-family: "Inter", sans-serif;
 }
 body{
     background-color: #1A0B2E;
 }
 
 nav{
-    max-width: 1600px;
+    max-width: 100%;
     margin: 0 auto;
-    padding: 16px 100px ;
+    padding: 16px 20px ;
     gap: auto;
     background-color: #1A0B2E;
     color: #FFFFFF;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
  .menu{
   list-style-type: none;
     display: flex;
-    gap: 20px;
+    gap: 32px;
     justify-content: center;
      align-items: center;
      border-radius: 20px;
@@ -35,15 +40,40 @@ nav{
  .btn-arrow {
     width: 115px;
     height: 35px;
-   background-image: linear-gradient(to right, #F7E93F, #FB09B4,#9100F8);
+   background-image: linear-gradient(47.64deg, #F7E93F, #FB09B4,#9100F8);
+  border-radius: 10000px;
+/*background: var(--Linear, linear-gradient(47.64deg, rgba(247, 233, 63, 1),rgba(251, 9, 180, 1),rgba(145, 0, 248, 1)));*/
   color: white;
   padding: 16px 12px;
   border: none;
-  border-radius: 50px;
-  font-size: 14px;
+  font-size: 1rem;
   cursor: pointer;
   display: flex;
   align-items: center;
   gap: 5px;
   
+}
+.hamburger{
+  display: none;
+}
+/*responsive media query*/
+@media screen and (max-width:576px) {
+    .menu, .btn-arrow{
+        display: none;
+    }
+    .hamburger{
+        display: inline;
+    }
+
+}
+@media screen and (min-width: 576px) and (max-width: 992px) {
+ nav{
+    flex-direction: column;
+    row-gap: 20px;
+}
+}
+@media screen and (min-width: 992px) {
+    nav{
+        padding: 16px 100px;
+    }
 }
