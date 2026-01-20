@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 
-*{max-width: 1400px;
+*{max-width: 1600px;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -64,13 +64,13 @@ nav{
     justify-content: center;
     width: 100%;
     height: 600px;
-    border: 2px solid rgb(50, 50, 50);
+    border: none;
 }
 
 .image-bg{
     width: 100%;
    margin:0 auto;
-    height: 700px;
+    height: 1200px;
     display: flex;
     flex-direction: column;
     position: relative;
@@ -81,7 +81,7 @@ nav{
 
 .background-image{
     width: 100%;
- height: 100%%;
+ height: 100%;
   position: absolute;
  
   
@@ -110,7 +110,7 @@ nav{
     position: absolute;
     top: 20%;
     right: 40%;
-    width: 45px;
+    width: 50px;
     height: 22px;
     font-weight: bold;
     border-radius: 5000px;
@@ -150,19 +150,21 @@ nav{
 color:#FFFFFF;
     font-size: 14px;
     font:smaller;
+    text-align: center;
 }
 .button{
     position: absolute;
   top: 100%;
-    left: 40%;
+    left: 35%;
     display: flex;
-   
-    gap: 20px;
+    padding: 20px;
+    gap: 10px;
+    padding-bottom: 50px;
 }
 .btn-listen {
     margin-top: 10px;
-    width: 190px;
-    height: 35px;
+    width: 205px;
+    height: 44px;
    background-image: linear-gradient(47.64deg, #F7E93F, #FB09B4,#9100F8);
   border-radius: 10000px;
 /*background: var(--Linear, linear-gradient(47.64deg, rgba(247, 233, 63, 1),
@@ -182,23 +184,23 @@ rgba(251, 9, 180, 1),rgba(145, 0, 248, 1)));*/
     border: 2px solid #00FF88;
     background: none;
     width: 150px;
-    height: 30px;
+    height: 44px;
     border-radius: 10000px;
 display: flex;
  justify-content: center;
+ align-items: center;
  gap: 5px;
    
   }
   .about-text{
     margin: 0 auto;
-    padding-top: 50px;
+    padding-top: 100px;
     width: 1000px;
     text-align: center;
     color:#FFFFFF;
     font-size: 14px;
     font:smaller;
     gap: 50px;
-    
    
   }
   .podcast{
@@ -211,7 +213,35 @@ display: flex;
     margin: 0 auto;
     padding: 50px;
   }
+  .static-items{
+    display: grid;
+    grid-template-columns: 4;
+    
+  }
+  .about{
+        width: 1600px;
+        height: 646px;
+        padding: 100px 100px 50px 50px;
+    }
   
+  .info-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    padding: 50px 120px 0 0;
+}
+.info-card{
+    border: 1px;
+    color: #00FF88;
+    width: 240px;
+    height: 94px;
+    gap: 80px;
+}
+.info-card>p{
+    color: #FFFFFF;
+    font-size:smaller;
+    
+}
 /*responsive media query*/
 @media screen and (max-width:576px) {
     .menu, .btn-arrow{
@@ -220,8 +250,44 @@ display: flex;
     .hamburger{
         display: inline;
     }
+    .new{
+         top: 15%;
+    right: 30%;
+    }
+    
+.button{
+    top: 100%;
+    left: 10%;
+    bottom: 0%;
+   
+}
+  .bold-text{
+    top:80% ;
+left: 50%;}
+.small-text{
+     top: 90%;
+    left: 10%; 
+}
+
+.about-text{
+    margin: 0;
+    padding: 0;
+    width: 500px;
+    text-align: left;
+}
+.info-container{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    justify-content:left;
+    padding: 0;
+    margin: 0;
+}
 
 }
+
+
+
+
 @media screen and (min-width: 576px) and (max-width: 992px) {
  nav{
     flex-direction: column;
