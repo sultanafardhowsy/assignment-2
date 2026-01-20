@@ -272,7 +272,11 @@ left: 50%;}
 .about-text{
     margin: 0;
     padding: 0;
-    width: 500px;
+    width: 450px;
+    text-align: left;
+}
+h1{
+    padding: 0;
     text-align: left;
 }
 .info-container{
