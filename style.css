@@ -102,8 +102,10 @@ nav{
   top: 38%;
     left: 50%;
     transform: translate(-50%, -50%);
-   
-    
+    transition: transform 1s;
+}
+.microphone:hover{
+    transform: rotate(45deg) scale(1.5);
 }
 .new{
     background-color: #00FF88;
@@ -401,6 +403,8 @@ height: 20px;}
     bottom: 30%;
     left: 40%;
 }
+/*animation*/
+
 
 /*responsive media query*/
 @media screen and (max-width:576px) {
