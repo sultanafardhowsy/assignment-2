@@ -242,6 +242,86 @@ display: flex;
     font-size:smaller;
     
 }
+
+.techwave-section{
+    width: 1600px;
+    height: 1200px;
+    background-color: #230E3D;
+    color: #FFFFFF;
+    border: #00FF88;
+    justify-content: center;
+    
+    
+}
+.card-holder{
+    max-width: 1400px;
+    height: 800px;
+    margin-top: 120px;
+    margin-bottom: 120px;
+    margin-left: 200px;
+    margin-right: 200px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    text-align: left;
+   
+    gap: 30px;
+
+}
+
+.card-header{
+     width: 1600px;
+     margin-top: 10px;
+    height: 58px;
+    font-size: 48px;
+    color: #FFFFFF;
+    padding: 40px;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.techwave-card-1{
+    grid-column: span 1;
+    grid-row: span 2;
+   padding: 40px;
+  border-radius: 40px;
+    background-color: #351165
+}
+
+.techwave-card-2{
+    grid-column: span 2;
+    grid-row: span 1;
+border-radius: 40px;
+ padding: 40px;
+    background-color: #351165;
+}
+.techwave-card-3{
+    grid-column: span 2;
+    grid-row: span 1;
+  border-radius: 40px;
+   padding: 40px;
+    background-color: #351165;
+
+}
+.techwave-card-4{
+    grid-column: span 2;
+    grid-row: span 1;
+   border-radius: 40px;
+    padding: 40px;
+    background-color: #351165;
+
+}
+.techwave-card-5{
+    grid-column: span 1;
+    grid-row: span 1;
+    border-radius: 40px;
+     padding: 40px;
+    background-color: #351165;
+
+}
+
+
 /*responsive media query*/
 @media screen and (max-width:576px) {
     .menu, .btn-arrow{
