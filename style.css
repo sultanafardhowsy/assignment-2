@@ -320,6 +320,58 @@ border-radius: 40px;
     background-color: #351165;
 
 }
+.episode-container{
+    max-width: 1400px;
+    height: 600px;
+    margin-top: 120px;
+margin-bottom: 120px;
+margin-left: 200px;
+margin-right: 200px;
+}
+.episode-card-container{
+    display: flex;
+flex-direction: row;
+gap: 30px;
+}
+.episode{
+    color: #FFFFFF;
+}
+.episode-card-1{
+    width: 380px;
+    height: 440px;
+    color: #FFFFFF;
+    font-size: smaller;
+    background-color: #250D44;
+    border-radius: 24px;
+    text-align: center;
+    gap: 20px;
+   
+}
+.episode-card-2{
+    width: 380px;
+    height: 440px;
+    color: #FFFFFF;
+    font-size: smaller;
+    background-color: #250D44;
+    border-radius: 24px;
+    text-align: center;
+}
+.episode-card-3{
+    width: 380px;
+    height: 440px;
+    color: #FFFFFF;
+    font-size: smaller;
+    background-color: #250D44;
+    border-radius: 24px;
+    text-align: center;
+}
+.clock{
+    text-align: left;
+    align-items: center;
+    gap: 50px;
+    color: #00FF88;}
+.cposition{width: 20px;
+height: 20px;}
 
 
 /*responsive media query*/
@@ -367,20 +419,28 @@ h1{
     margin: 0;
 }
 .techwave-section{
+    height: 1800px;
 justify-content: left;
 align-items: self-start;
 }
 .card-header{text-align: left;
-    padding: 100px;
+    padding-left: 100px;
+    padding-bottom: 0;
 font-size:x-large;}
 .card-holder{
     display: flex;
     flex-direction: column;
-   width: 400px;
-   height: 1400px;
-    padding: 0;
+    align-items: center;
+  width: 576px;
+   height: 1600px;
+   margin-top: 0;
     margin-left: 0;
     padding: 50px;
+}
+.episode-card-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 }
