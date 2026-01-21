@@ -324,7 +324,7 @@ border-radius: 40px;
 }
 .episode-container{
     max-width: 1400px;
-    height: 600px;
+    height: 800px;
     margin-top: 120px;
 margin-bottom: 120px;
 margin-left: 200px;
@@ -374,6 +374,42 @@ gap: 30px;
     color: #00FF88;}
 .cposition{width: 20px;
 height: 20px;}
+.host{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    gap: 30px;
+    border-radius: 10px;
+    background-color: #351165;
+    /*linear-gradient(to right, rgba(83, 60, 114, 1), #000000, #351165) ;*/
+     
+}
+.host-introduction{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.description-host{
+    color: #FFFFFF;
+    position: relative;
+    gap: 40px;
+    
+}
+p{
+    line-height: 1.6;
+    padding-bottom: 30px;
+}
+.social-media{
+    padding-top: 30px;
+}
+h1{
+    color: #FFFFFF;
+}
 .footer-item{
     color: #FFFFFF;
     background-image: url(./assets/footer-bg.png);
