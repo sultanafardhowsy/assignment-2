@@ -324,7 +324,7 @@ border-radius: 40px;
 }
 .episode-container{
     max-width: 1400px;
-    height: 800px;
+    height: 1000px;
     margin-top: 120px;
 margin-bottom: 120px;
 margin-left: 200px;
@@ -407,7 +407,8 @@ p{
 .social-media{
     padding-top: 30px;
 }
-h1{
+h1{padding-bottom: 40px;
+    text-align: center;
     color: #FFFFFF;
 }
 .footer-item{
@@ -495,6 +496,21 @@ align-items: self-start;
     padding-left: 100px;
     padding-bottom: 0;
 font-size:x-large;}
+
+.episode-container{
+    width: 550px;
+    padding: 0;
+    margin: 0;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.episode-card-container{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
 .card-holder{
     display: flex;
     flex-direction: column;
@@ -506,15 +522,19 @@ font-size:x-large;}
     margin-left: 0;
     padding: 50px;
 }
-.episode-card-container{
+.host{
+    width: 550px;
+    
+    text-align: left;
+    font-size: medium;
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
-.host{
+.footer-items{
+   width: 576px;
 
-    background-color: #351165;
-    color: #FFFFFF;
+    display: grid;
+    grid-template-columns: repeat(2 1fr);
 }
 
 }
